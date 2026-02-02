@@ -189,7 +189,7 @@ if st.sidebar.button("🚀 Generate Feed", type="primary"):
         else:
             st.warning("No videos passed filtering!")
 else:
-    st.markdown("## 📐 System Architecture")
+    st.markdown("### 📐 System Architecture")
     
     # Architecture diagram with expander (accordion style)
     with st.expander("**View Architecture Diagram**", expanded=False):
