@@ -196,7 +196,7 @@ else:
         if img_path.exists():
             st.image(str(img_path), use_column_width=True)
         else:
-            st.info("System architecture diagram will appear here after deployment."
+            st.info("System architecture diagram will appear here after deployment.")
 
     st.markdown("""
     ### 🚀 How to Use
