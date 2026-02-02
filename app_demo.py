@@ -189,8 +189,10 @@ if st.sidebar.button("🚀 Generate Feed", type="primary"):
         else:
             st.warning("No videos passed filtering!")
 else:
+    st.markdown("## 📐 System Architecture")
+    
     # Architecture diagram with expander (accordion style)
-    with st.expander("**System Architecture**", expanded=False):
+    with st.expander("**View Architecture Diagram**", expanded=False):
         from pathlib import Path
         img_path = Path("docs/system_architecture.png")
         if img_path.exists():
