@@ -1,0 +1,28 @@
+{
+  "recall_at_k": {
+    "10": 0.007666666666666667,
+    "50": 0.02878333333333333,
+    "100": 0.04131666666666666
+  },
+  "num_test_users": 1000,
+  "num_candidates": 500,
+  "held_out_per_user": 5,
+  "evaluation_note": "Random sampling within test (not strict temporal holdout)",
+  "training_history": {
+    "train_loss": [
+      4.166803248797752,
+      4.169374990770174,
+      4.137479013696339
+    ],
+    "train_accuracy": [
+      0.0009737053832650673,
+      0.0014534247971688616,
+      0.0030843146000114133
+    ],
+    "val_loss": [
+      4.15775123169445,
+      4.169068471471414,
+      4.257117886497737
+    ]
+  }
+}

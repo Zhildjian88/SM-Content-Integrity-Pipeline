@@ -1,0 +1,24 @@
+{
+  "roc_auc": {
+    "train": 1.0,
+    "val": 1.0,
+    "test": 1.0
+  },
+  "roc_auc_base": {
+    "train": 1.0,
+    "val": 1.0,
+    "test": 1.0
+  },
+  "brier_score": {
+    "train": 1.6770230403241282e-37,
+    "val": 0.0,
+    "test": 7.826001043859244e-37
+  },
+  "confusion_matrix": {
+    "tn": 15000,
+    "fp": 0,
+    "fn": 0,
+    "tp": 750
+  },
+  "n_iterations": 100
+}

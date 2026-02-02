@@ -1,0 +1,16 @@
+# Large files
+data/*.parquet
+features/*.npy
+models/*.h5
+models/*.pkl
+models/*_vocab.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/

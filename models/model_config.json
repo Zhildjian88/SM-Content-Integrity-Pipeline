@@ -1,0 +1,5 @@
+{
+  "embedding_dim": 128,
+  "user_vocab_size": 100001,
+  "video_vocab_size": 50001
+}

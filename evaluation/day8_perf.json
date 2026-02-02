@@ -1,0 +1,35 @@
+{
+  "environment": {
+    "platform": "Google Colab",
+    "cpu": "Shared CPU (variable)",
+    "note": "Warm-cache performance after initialization"
+  },
+  "memory_mb": 2494.5078125,
+  "startup_time_note": "Measured from server logs, typically 3-8 seconds for full registry initialization",
+  "feed_endpoint": {
+    "sample_size": 200,
+    "mean_ms": 27.893340587615967,
+    "min_ms": 14.785051345825195,
+    "p50_ms": 30.86221218109131,
+    "p95_ms": 37.50152587890624,
+    "p99_ms": 40.753910541534424,
+    "max_ms": 42.34027862548828,
+    "status_codes": {
+      "200": 200
+    },
+    "success_rate": 1.0
+  },
+  "risk_endpoint": {
+    "sample_size": 100,
+    "mean_ms": 4.771788120269775,
+    "min_ms": 3.729581832885742,
+    "p50_ms": 4.564404487609863,
+    "p95_ms": 5.929672718048096,
+    "p99_ms": 8.786849975585955,
+    "max_ms": 12.249946594238281,
+    "status_codes": {
+      "200": 100
+    },
+    "success_rate": 1.0
+  }
+}

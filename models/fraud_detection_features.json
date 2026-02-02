@@ -1,0 +1,8 @@
+[
+  "top1_video_concentration",
+  "video_diversity_ratio",
+  "burstiness_score",
+  "max_actions_per_hour",
+  "distinct_hours_active",
+  "unique_videos"
+]

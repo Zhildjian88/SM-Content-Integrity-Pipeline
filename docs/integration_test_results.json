@@ -1,0 +1,178 @@
+{
+  "test_results": [
+    {
+      "test": "Health Check",
+      "status": "PASS"
+    },
+    {
+      "test": "Risk Endpoint",
+      "status": "PASS"
+    },
+    {
+      "test": "Feed Basic",
+      "status": "PASS"
+    },
+    {
+      "test": "Unknown User Defaults",
+      "status": "PASS"
+    },
+    {
+      "test": "Override Extreme Low (0.0)",
+      "status": "PASS"
+    },
+    {
+      "test": "Override Extreme High (1.0)",
+      "status": "PASS"
+    },
+    {
+      "test": "Empty Result Resilience",
+      "status": "PASS"
+    },
+    {
+      "test": "Feed with Stats",
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0
+  },
+  "sample_calls": {
+    "health": {
+      "status": "healthy",
+      "service": "iGaming Content Integrity API",
+      "version": "1.0.0"
+    },
+    "risk_user_100": {
+      "user_id": "user_100",
+      "fraud_score": 0.0,
+      "fraud_tier": "low",
+      "manipulation_threshold": 0.7
+    },
+    "feed_basic": {
+      "user_id": "user_100",
+      "fraud_score": 0.0,
+      "fraud_tier": "low",
+      "videos": [
+        {
+          "video_id": "video_73",
+          "score": 0.179672509431839,
+          "rank": 1
+        },
+        {
+          "video_id": "video_18",
+          "score": 0.1773093044757843,
+          "rank": 2
+        },
+        {
+          "video_id": "video_866",
+          "score": 0.1766623705625534,
+          "rank": 3
+        },
+        {
+          "video_id": "video_1145",
+          "score": 0.1738385558128357,
+          "rank": 4
+        },
+        {
+          "video_id": "video_3452",
+          "score": 0.17356683313846588,
+          "rank": 5
+        },
+        {
+          "video_id": "video_1002",
+          "score": 0.17189279198646545,
+          "rank": 6
+        },
+        {
+          "video_id": "video_6",
+          "score": 0.17042648792266846,
+          "rank": 7
+        },
+        {
+          "video_id": "video_42",
+          "score": 0.1646476686000824,
+          "rank": 8
+        },
+        {
+          "video_id": "video_318",
+          "score": 0.1631271094083786,
+          "rank": 9
+        },
+        {
+          "video_id": "video_1867",
+          "score": 0.16298088431358337,
+          "rank": 10
+        },
+        {
+          "video_id": "video_111",
+          "score": 0.1627408266067505,
+          "rank": 11
+        },
+        {
+          "video_id": "video_390",
+          "score": 0.1624411642551422,
+          "rank": 12
+        },
+        {
+          "video_id": "video_1555",
+          "score": 0.16171902418136597,
+          "rank": 13
+        },
+        {
+          "video_id": "video_373",
+          "score": 0.16100330650806427,
+          "rank": 14
+        },
+        {
+          "video_id": "video_151",
+          "score": 0.16050586104393005,
+          "rank": 15
+        },
+        {
+          "video_id": "video_1703",
+          "score": 0.15967099368572235,
+          "rank": 16
+        },
+        {
+          "video_id": "video_1318",
+          "score": 0.15852108597755432,
+          "rank": 17
+        },
+        {
+          "video_id": "video_35",
+          "score": 0.1532951295375824,
+          "rank": 18
+        },
+        {
+          "video_id": "video_486",
+          "score": 0.15313446521759033,
+          "rank": 19
+        },
+        {
+          "video_id": "video_3457",
+          "score": 0.1527596265077591,
+          "rank": 20
+        }
+      ],
+      "stats": {
+        "retrieved": 100,
+        "after_safety": 100,
+        "after_manipulation": 98,
+        "final_returned": 20,
+        "removed_by_top_n": 78,
+        "blocked_safety": 0,
+        "blocked_manipulation": 2,
+        "blocked_unknown": 0,
+        "thresholds": {
+          "nsfw": 0.5,
+          "violence": 0.7,
+          "hate_speech": 0.6,
+          "manipulation": 0.7
+        },
+        "fraud_tier": "low"
+      }
+    }
+  }
+}
