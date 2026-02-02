@@ -189,15 +189,14 @@ if st.sidebar.button("🚀 Generate Feed", type="primary"):
         else:
             st.warning("No videos passed filtering!")
 else:
-    st.markdown("## 📐 System Architecture")
-    from pathlib import Path
-
-    img_path = Path("docs/system_architecture.png")
-
-    if img_path.exists():
-        st.image(str(img_path), use_column_width=True)
-    else:
-        st.info("System architecture diagram will appear here after deployment.")
+    # Architecture diagram with expander (accordion style)
+    with st.expander("**System Architecture**", expanded=False):
+        from pathlib import Path
+        img_path = Path("docs/system_architecture.png")
+        if img_path.exists():
+            st.image(str(img_path), use_column_width=True)
+        else:
+            st.info("System architecture diagram will appear here after deployment."
 
     st.markdown("""
     ### 🚀 How to Use
