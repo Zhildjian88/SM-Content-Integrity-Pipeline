@@ -268,7 +268,7 @@ NSFW < 0.5, Violence < 0.7, Hate Speech < 0.6
 - Synthetic data (perfect fraud separation, lower recall than production)
 
 
-## 🎤 Interview Talking Points
+## 🎤 Talking Points
 
 ### "Walk me through your project"
 > "I built an end-to-end content recommendation system with adaptive fraud-based filtering. The system combines a Two-Tower retrieval model with multi-layer integrity checks that automatically adjust strictness based on user risk. High-risk users face 2.4× more aggressive manipulation filtering while maintaining consistent feed quality. The entire pipeline is production-ready with pre-computed embeddings for sub-second serving latency."
@@ -278,8 +278,6 @@ NSFW < 0.5, Violence < 0.7, Hate Speech < 0.6
 
 ### "How would you deploy this?"
 > "Four components: (1) Batch jobs to refresh embeddings and fraud scores daily, (2) FastAPI service with health checks and load balancing, (3) Redis/Memcached for hot-path caching if latency becomes critical, and (4) A/B testing framework to measure engagement vs. safety trade-offs. I'd also add percentile latency monitoring (p50/p95/p99) and gradual rollout with feature flags."
-
-**See [PORTFOLIO.md](PORTFOLIO.md) for complete interview guide.**
 
 ---
 
@@ -309,8 +307,12 @@ NSFW < 0.5, Violence < 0.7, Hate Speech < 0.6
 
 ## 📝 License
 
-This is a portfolio demonstration project. Code available under MIT License.
+© 2026 SiDO Strategies. All rights reserved.
 
----
+This repository is provided for portfolio and evaluation purposes only.  
+No part of this software may be copied, modified, distributed, sublicensed, or used for commercial purposes without prior written permission from SiDO Strategies.
 
-**Built by SWK • Dec 2025 • [LinkedIn](#) • [GitHub](#)**
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+Built by SWK • Feb 2026 • Platform Integrity & Risk Lead | MSc AI/ML (Distinction)  
+[SiDO Strategies](https://sidosg.com) — AI Governance & Risk Advisory
