@@ -10,7 +10,7 @@
 
 ---
 
-## 🌐 Live Demo (Streamlit)
+## 📺 Live Demo (Streamlit)
 
 👉 **Interactive Streamlit App:**  
 https://sm-content-integrity-pipeline.streamlit.app/
