@@ -10,6 +10,18 @@
 
 ---
 
+## 🌐 Live Demo (Streamlit)
+
+👉 **Interactive Streamlit App:**  
+https://sm-content-integrity-pipeline.streamlit.app/
+
+Use the live demo to:
+- Adjust fraud-risk thresholds in real time
+- Compare low-risk vs high-risk user feeds
+- Visualise the integrity funnel (retrieval → filtering → output)
+
+---
+
 ## 🎯 What This Project Proves
 
 ✅ **End-to-end ML pipeline** - From data generation to serving API
